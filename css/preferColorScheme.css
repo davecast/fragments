@@ -1,0 +1,16 @@
+:root {
+  --primary: #0099cc;
+  --secondary: #003c50;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #1d1d1d;
+    --secondary: #acacac;
+  }
+}
